@@ -15,6 +15,7 @@ function App() {
       <div>
         <Header />
         <Navigation />
+        <Dashboard/>
         <Routes>
           <Route path="/products/:id" element={<ProductDetails />} />
           <Route path="/products" element={<Products />} />
